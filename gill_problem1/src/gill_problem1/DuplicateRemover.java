@@ -24,7 +24,7 @@ public class DuplicateRemover {
 			while (lines != null) {
         	
         	String[]words=lines.toLowerCase().replace("."," ").split(" ");
-        	System.out.print(Arrays.toString(words));
+        	
         	lines = br1.readLine();
         	for (String word : words) 
         	{
